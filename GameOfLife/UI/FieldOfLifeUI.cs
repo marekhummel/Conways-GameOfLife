@@ -28,8 +28,10 @@ namespace GameOfLife.UI
 
         public int SizePerCell => (Width - 1) / Attributes.AmountOfCellsPerLine;
 
+        [System.ComponentModel.DesignerSerializationVisibility(System.ComponentModel.DesignerSerializationVisibility.Hidden)]
         public bool InputEnabled { get; set; }
 
+        [System.ComponentModel.DesignerSerializationVisibility(System.ComponentModel.DesignerSerializationVisibility.Hidden)]
         public GridStyles GridStyle { get; set; }
         public enum GridStyles
         {
@@ -40,17 +42,23 @@ namespace GameOfLife.UI
             Empty
         }
 
+        [System.ComponentModel.DesignerSerializationVisibility(System.ComponentModel.DesignerSerializationVisibility.Hidden)]
         public CellStyles CellStyle { get; set; }
         public enum CellStyles
         {
             Square,
             Circle
         }
+        [System.ComponentModel.DesignerSerializationVisibility(System.ComponentModel.DesignerSerializationVisibility.Hidden)]
         public int CellFigureDistance { get; set; }
 
+        [System.ComponentModel.DesignerSerializationVisibility(System.ComponentModel.DesignerSerializationVisibility.Hidden)]
         public Color BackgroundColor { get; set; }
+        [System.ComponentModel.DesignerSerializationVisibility(System.ComponentModel.DesignerSerializationVisibility.Hidden)]
         public Color GridColor { get; set; }
+        [System.ComponentModel.DesignerSerializationVisibility(System.ComponentModel.DesignerSerializationVisibility.Hidden)]
         public Color LivingCellColor { get; set; }
+        [System.ComponentModel.DesignerSerializationVisibility(System.ComponentModel.DesignerSerializationVisibility.Hidden)]
         public Color HoverColor { get; set; }
 
         public InputModes InputMode;

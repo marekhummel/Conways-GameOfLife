@@ -7,6 +7,7 @@ namespace GameOfLife.UI
 
         private bool[] Active = new bool[9];
 
+        [System.ComponentModel.DesignerSerializationVisibility(System.ComponentModel.DesignerSerializationVisibility.Hidden)]
         public string Rule {
             get {
                 string ret = string.Empty;

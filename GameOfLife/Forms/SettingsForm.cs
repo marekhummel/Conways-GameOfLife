@@ -13,6 +13,7 @@
         }
 
         private UISettingsFile? uisetts;
+        [System.ComponentModel.DesignerSerializationVisibility(System.ComponentModel.DesignerSerializationVisibility.Hidden)]
         public UISettingsFile? UISettings {
             get => uisetts;
             set {

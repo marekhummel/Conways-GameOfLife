@@ -23,6 +23,7 @@
             Data
         }
 
+        [System.ComponentModel.DesignerSerializationVisibility(System.ComponentModel.DesignerSerializationVisibility.Hidden)]
         public UI.FieldOfLifeUI? AFieldOfLife { get; set; }
 
         // *****************
